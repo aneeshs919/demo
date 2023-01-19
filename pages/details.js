@@ -1,2 +1,2 @@
-import Details from "../PageComponents/details";
+import Details from "../PageComponents/Details";
 export default Details;
