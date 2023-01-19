@@ -1,2 +1,2 @@
-import Listings from "../pageComponents/listings";
+import Listings from "../PageComponents/listings";
 export default Listings
