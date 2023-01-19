@@ -1,43 +1,34 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills-c67a75d1b6f99dc8.js"
+    "static/chunks/polyfills.js"
   ],
-  "devFiles": [],
-  "ampDevFiles": [],
+  "devFiles": [
+    "static/chunks/react-refresh.js"
+  ],
+  "ampDevFiles": [
+    "static/chunks/webpack.js",
+    "static/chunks/amp.js"
+  ],
   "lowPriorityFiles": [
-    "static/J-1jnND8Zhbdx3VZVGwow/_buildManifest.js",
-    "static/J-1jnND8Zhbdx3VZVGwow/_ssgManifest.js"
+    "static/development/_buildManifest.js",
+    "static/development/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
     "/": [
-      "static/chunks/webpack-4e7214a60fad8e88.js",
-      "static/chunks/framework-114634acb84f8baa.js",
-      "static/chunks/main-010ff0b6bbe5ac8f.js",
-      "static/chunks/180-4f035bc66e6bf5f7.js",
-      "static/chunks/pages/index-e86954fdaac1308e.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/index.js"
     ],
     "/_app": [
-      "static/chunks/webpack-4e7214a60fad8e88.js",
-      "static/chunks/framework-114634acb84f8baa.js",
-      "static/chunks/main-010ff0b6bbe5ac8f.js",
-      "static/css/b1f9f3348ab96a2f.css",
-      "static/chunks/pages/_app-87af9413491b55f2.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/_app.js"
     ],
     "/_error": [
-      "static/chunks/webpack-4e7214a60fad8e88.js",
-      "static/chunks/framework-114634acb84f8baa.js",
-      "static/chunks/main-010ff0b6bbe5ac8f.js",
-      "static/chunks/pages/_error-8353112a01355ec2.js"
-    ],
-    "/details": [
-      "static/chunks/webpack-4e7214a60fad8e88.js",
-      "static/chunks/framework-114634acb84f8baa.js",
-      "static/chunks/main-010ff0b6bbe5ac8f.js",
-      "static/chunks/9b380ffa-83fe3ada0f126568.js",
-      "static/chunks/180-4f035bc66e6bf5f7.js",
-      "static/chunks/653-80c3baa608179612.js",
-      "static/chunks/pages/details-e5c72514074fe232.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/_error.js"
     ]
   },
   "ampFirstPages": []
